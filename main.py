@@ -131,7 +131,7 @@ def search():
 @login_required
 def delete(id):
     db.engine.execute(f"DELETE FROM `student` WHERE `student`.`id`={id}")
-    flash("Student Deleted Successfully","danger")
+    flash("Trainee Deleted Successfully","danger")
     return redirect('/studentdetails')
 
 
@@ -150,7 +150,7 @@ def edit(id):
         num=request.form.get('num')
         address=request.form.get('address')
         query=db.engine.execute(f"UPDATE `student` SET `rollno`='{rollno}',`sname`='{sname}',`sem`='{sem}',`gender`='{gender}',`branch`='{branch}',`email`='{email}',`number`='{num}',`address`='{address}'")
-        flash("Student Updated successfully","success")
+        flash("Trainee Updated successfully","success")
         return redirect('/studentdetails')
     
     return render_template('edit.html',posts=posts,dept=dept)
