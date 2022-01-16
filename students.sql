@@ -38,7 +38,7 @@ CREATE TABLE `attendence` (
 --
 
 INSERT INTO `attendence` (`aid`, `rollno`, `attendance`) VALUES
-(6, '1ve17cs012', 98);
+(1, '1ds19is042', 98);
 
 -- --------------------------------------------------------
 
@@ -134,9 +134,9 @@ CREATE TABLE `trig` (
 --
 
 INSERT INTO `trig` (`tid`, `rollno`, `action`, `timestamp`) VALUES
-(1, '1ve17cs012', 'STUDENT INSERTED', '2021-01-10 19:19:56'),
-(2, '1ve17cs012', 'STUDENT UPDATED', '2021-01-10 19:20:31'),
-(3, '1ve17cs012', 'STUDENT DELETED', '2021-01-10 19:21:23');
+(1, '1ds19is042', 'STUDENT INSERTED', '2022-01-10 19:19:56'),
+(2, '1ds19is042', 'STUDENT UPDATED', '2022-01-10 19:20:31'),
+(3, '1ds19is042', 'STUDENT DELETED', '2022-01-10 19:21:23');
 
 -- --------------------------------------------------------
 
@@ -156,7 +156,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `email`, `password`) VALUES
-(4, 'anees', 'anees@gmail.com', 'pbkdf2:sha256:150000$1CSLss89$ef995dfc48121768b2070bfbe7a568871cd56fac85ac7c95a1e645c8806146e9');
+(1, 'disha', 'disha16122001@gmail.com', '12345');
 
 --
 -- Indexes for dumped tables
