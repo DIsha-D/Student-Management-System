@@ -6,7 +6,7 @@ Triggers
 
 
 {% block body %}
- <h3 class="text-center"><span>Trainee Records</span> </h3>
+ <h3 class="text-center"><span>Student Records</span> </h3>
   
 {% with messages=get_flashed_messages(with_categories=true) %}
 {% if messages %}
@@ -29,7 +29,7 @@ Triggers
       <th scope="col">Sl.No</th>
       <th scope="col">USN</th>
       <th scope="col">ACTION</th>
-      <th scope="col">TIMESTAMP</th>
+      <th scope="col">DATE</th>
 
 
     </tr>
@@ -40,7 +40,7 @@ Triggers
       <th scope="row">{{post.tid}}</th>
       <td>{{post.rollno}}</td>
       <td>{{post.action}}</td>
-      <td>{{post.timestamp}}</td>
+      <td>{{post.date}}</td>
      
   
     </tr>

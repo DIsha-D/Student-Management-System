@@ -6,7 +6,7 @@ Search
 
 
 {% block body %}
- <h3 class="text-center"><span>Search Trainee Details</span> </h3>
+ <h3 class="text-center"><span>Search Student</span> </h3>
   
 {% with messages=get_flashed_messages(with_categories=true) %}
 {% if messages %}
@@ -47,7 +47,7 @@ Search
 <div class="col-md-8">
 {% if bio %}
 <br>
-<h3>Trainee Details</h3>
+<h3>Student Details</h3>
  <hr>
  <li>USN : {{bio.rollno}}</li>
  <li>Name : {{bio.sname}}</li>

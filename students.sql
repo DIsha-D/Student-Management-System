@@ -56,12 +56,12 @@ CREATE TABLE `department` (
 --
 
 INSERT INTO `department` (`cid`, `branch`) VALUES
-(2, 'Information Science'),
-(3, 'Electronic and Communication'),
-(4, 'Electrical & Electronic'),
-(5, 'Civil '),
-(7, 'computer science'),
-(8, 'IOT');
+(1, 'Information Science'),
+(2, 'Electronic and Communication'),
+(3, 'Electrical & Electronic'),
+(4, 'Civil '),
+(5, 'computer science'),
+(6, 'IOT');
 
 -- --------------------------------------------------------
 
@@ -134,9 +134,9 @@ CREATE TABLE `trig` (
 --
 
 INSERT INTO `trig` (`tid`, `rollno`, `action`, `timestamp`) VALUES
-(7, '1ve17cs012', 'STUDENT INSERTED', '2021-01-10 19:19:56'),
-(8, '1ve17cs012', 'STUDENT UPDATED', '2021-01-10 19:20:31'),
-(9, '1ve17cs012', 'STUDENT DELETED', '2021-01-10 19:21:23');
+(1, '1ve17cs012', 'STUDENT INSERTED', '2021-01-10 19:19:56'),
+(2, '1ve17cs012', 'STUDENT UPDATED', '2021-01-10 19:20:31'),
+(3, '1ve17cs012', 'STUDENT DELETED', '2021-01-10 19:21:23');
 
 -- --------------------------------------------------------
 
